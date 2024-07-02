@@ -15,6 +15,7 @@ public class DepartmentService {
 
     public List<Department> readAllDepartments(){
         List<Department> departmentList = departmentRepository.findAll();
+        // List<Department> departmentList = departmentRepository.solution1();
 
         return departmentList;
     }
